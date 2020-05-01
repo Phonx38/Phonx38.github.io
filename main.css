@@ -1,0 +1,367 @@
+html,body{
+    background-color: #fff;
+    font-family: 'Source-Sans-Pro',sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding:0px !important;
+    scroll-snap-type: y mandatory;
+    /* scroll-padding: 15vh; */
+    
+  scroll-snap-type: mandatory;
+}
+
+
+*{
+    text-decoration: none;
+}
+
+
+.nav{
+    position: fixed;
+    z-index:1000;
+    top:0;
+    right:0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.02);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.nav .logo{
+   
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.nav .logo img{
+    padding-top:20px;
+    padding-right:0px;
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.nav .links .active {
+    color:#e0501b;
+}
+
+.nav h4{
+
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+
+
+.landingPage{
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+
+
+}
+
+
+.landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+}
+
+.landingText h3{
+    margin: 6px !important;
+    font-size: 20px;
+    opacity: 0.3;
+    line-height: 20px;
+}
+
+
+.landingText .btn{
+    width: 120px;
+    margin-top: 30px;
+    
+    padding: 14px 20px 14px 20px;
+    background-color: #2f8be0;
+    text-align: center;
+    border-radius: 45px;
+}
+
+.landingText .btn a{
+    font-size: 1.2vw;
+    color: #fff;
+    font-weight: bold;
+}
+
+.landingImg img{
+    width: 28vw;
+}
+
+.about{
+    scroll-snap-align: start;
+    height:100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.aboutText{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+
+}
+
+.aboutText h1{
+    position: relative;
+    left: 110px;
+
+}
+
+.aboutText img{
+    width: 10vw;
+    position: absolute;
+    top: 50px;
+}
+.aboutList {
+    width: 70%;
+}
+
+ol{
+    list-style: none;
+    color:#e0501b;
+}
+ol li{
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+li p{
+    font-size: 16px;
+    color: #000;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+li span{
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+
+}
+
+li h4{
+    margin-bottom: 0;
+    font-size:18px ;
+    padding-left: 60px;
+}
+
+
+
+.symptom{
+    height:100vh;
+    /* padding: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+
+
+
+.symptomText{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+
+}
+
+.symptomText h1{
+    position: relative;
+    right: 100px;
+    top:40px;
+
+}
+
+.symptomText img{
+
+    width: 20vw;
+
+    position: absolute;
+    top: 150px;
+}
+.symptomList {
+    top: 20px;
+
+    width: 60%;
+
+}
+.symptomList p{
+    font-size: 20px;
+}
+
+
+ul{
+
+    color:#e0501b;
+}
+
+ul li{
+    font-size: 22px;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+
+
+.prevent{
+    scroll-snap-align: start;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.preventHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.preventCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:40px 0 40px 0;
+}
+
+.preventCards .card{
+    position: relative;
+    height: 320px;
+    width: 280px;
+    background: #ffce63;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09),0 10px 10px rgba(0, 0, 0, 0.09)
+}
+
+.preventCards .one .cardOneImg{
+    width: 180px;
+    position: absolute;
+    left: 50px;
+    top:-10px;
+    /* top:-50px;
+    right: -50px; */
+} 
+
+.cardbgOne{
+    height: 150px;
+    background-color: #fff;
+}
+
+.cardContent{
+    padding: 0 20px;
+
+}
+
+.cardContent h2{
+    font-weight: 600;
+}
+
+.cardContent p{
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+
+
+
+
+
+/* Responsive */
+
+
+
+@media only screen and (max-width:600px){
+
+    .nav{
+        flex-direction:column ;
+        justify-content: space-around;
+        padding:20px;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    .nav h4{
+        font-size:6vw;
+        margin-top:10px;
+        font-weight: 600;
+    }
+
+    .landingPage{
+        flex-direction: column-reverse;
+        height: 750px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .landingText h1{
+        font-size:6vw;
+        margin:0 !important;
+    }
+
+    .landingText h4{
+        font-size: 16px;
+    }
+    .landingText btn{
+        margin:  0 auto;
+    }
+
+    .landingText .btn a{
+        font-style: 3vw;
+    }
+
+    .landingImg img{
+        width: 52vw;
+        margin-bottom: 20px;
+    }
+
+
+
+    .about{
+        height: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutText{
+        padding: 0 50px;
+        height: 100px;
+    }
+    .aboutText h1{
+        left: 40px;
+        font-size: 5vw;
+    }
+}
